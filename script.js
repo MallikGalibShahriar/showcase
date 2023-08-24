@@ -12,6 +12,12 @@ const projects = [
     description: `Your gateway to a more calming and effortless reading experience. Input your text, and watch as it's magically transformed into a soothing format, designed to help you read faster and with greater comfort. Our innovative processing technique optimizes the text's layout, font, and spacing, ensuring that every word flows harmoniously. Whether it's articles, notes, or even spiritual verses, let EaseRead be your companion in effortlessly absorbing content, providing you with the tranquility and efficiency you seek in every read.`,
     url: "https://mallikgalibshahriar.github.io/fastreader/",
   },
+  {
+    title: "Rock-Paper-Scissors",
+    imageUrl: "https://cdn.firespring.com/images/619078c5-7a66-4e5f-98c8-fb5211a1374a.png",
+    description: `Engage in the ultimate showdown of wits with the Rock-Paper-Scissors game featuring Galib, the mastermind behind the game! Take on the challenge of outsmarting Galib as you choose between rock, paper, and scissors. Will you be able to predict his moves and claim victory? Prepare for an exhilarating experience where rock blunts scissors, paper covers rock, and scissors slice through paper. Challenge Galib, the in-game developer, and prove that you have what it takes to conquer this classic game. Step into the arena, make your choice, and show off your strategic prowess in this battle of choices!`,
+    url: "https://mallikgalibshahriar.github.io/rock-paper-scissors/",
+  }
 ];
 
 function generateProjectTiles() {
