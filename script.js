@@ -14,7 +14,7 @@ const projects = [
   },
   {
     title: "Rock-Paper-Scissors",
-    imageUrl: "https://cdn.firespring.com/images/619078c5-7a66-4e5f-98c8-fb5211a1374a.png",
+    imageUrl: "https://media.istockphoto.com/id/1395632555/vector/colorful-hand-icon-set.jpg?s=612x612&w=0&k=20&c=g6r4Oms6euKipRCjlwLx-8MPs1pajjnP4_aK0r6HEeo=",
     description: `Engage in the ultimate showdown of wits with the Rock-Paper-Scissors game featuring Galib, the mastermind behind the game! Take on the challenge of outsmarting Galib as you choose between rock, paper, and scissors. Will you be able to predict his moves and claim victory? Prepare for an exhilarating experience where rock blunts scissors, paper covers rock, and scissors slice through paper. Challenge Galib, the in-game developer, and prove that you have what it takes to conquer this classic game. Step into the arena, make your choice, and show off your strategic prowess in this battle of choices!`,
     url: "https://mallikgalibshahriar.github.io/rock-paper-scissors/",
   },
