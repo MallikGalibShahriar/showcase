@@ -18,6 +18,12 @@ const projects = [
     description: `Engage in the ultimate showdown of wits with the Rock-Paper-Scissors game featuring Galib, the mastermind behind the game! Take on the challenge of outsmarting Galib as you choose between rock, paper, and scissors. Will you be able to predict his moves and claim victory? Prepare for an exhilarating experience where rock blunts scissors, paper covers rock, and scissors slice through paper. Challenge Galib, the in-game developer, and prove that you have what it takes to conquer this classic game. Step into the arena, make your choice, and show off your strategic prowess in this battle of choices!`,
     url: "https://mallikgalibshahriar.github.io/rock-paper-scissors/",
   },
+  {
+    title: "CLickJacking Demo",
+    imageUrl: "https://portswigger.net/web-security/images/clickjacking-infographic.svg",
+    description: `Clickjacking is a type of cyber attack where a malicious website or element tricks you into clicking on something different from what you actually see. It's like someone hiding a button behind a picture and when you try to click on the picture, you're actually clicking the hidden button. This can be used to make you unintentionally perform actions like sharing sensitive information, liking a post, or even giving access to your device. It's important to be cautious and only click on things from sources you trust.`,
+    url: "https://mallikgalibshahriar.github.io/clickjacking/",
+  },
 ];
 
 function generateProjectTiles() {
