@@ -24,6 +24,12 @@ const projects = [
     description: `Clickjacking is a type of cyber attack where a malicious website or element tricks you into clicking on something different from what you actually see. It's like someone hiding a button behind a picture and when you try to click on the picture, you're actually clicking the hidden button. This can be used to make you unintentionally perform actions like sharing sensitive information, liking a post, or even giving access to your device. It's important to be cautious and only click on things from sources you trust.`,
     url: "https://mallikgalibshahriar.github.io/clickjacking/",
   },
+  {
+    title: "CGPA Calculator",
+    imageUrl: "https://www.edmissions.com/media/upload/blog/205054.20cgpa20to20percentage.png",
+    description: `Introducing my cool CGPA Calculator project! 🎓🧮 Tired of scratching your head to figure out your CGPA? Say goodbye to manual calculations! With this nifty tool, you just punch in your subject name, credit hours, and grade points – and voila! 🚀📚 Watch as the magic happens, and your CGPA pops up on the screen. No more late-night grade crunching. Whether it's A's or B's, this calculator's got your back in decoding your academic journey! 🎉📊`,
+    url: "https://mallikgalibshahriar.github.io/cgpa_calculator/",
+  },
 ];
 
 function generateProjectTiles() {
