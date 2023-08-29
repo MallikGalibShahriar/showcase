@@ -62,3 +62,81 @@ main {
   margin-left: 20px; 
   color: #444;
 }
+
+.container {
+  position: sticky;
+  top: 30%;
+  transform: translateY(-50%);
+  max-width: 350px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-out; 
+}
+.container:hover {
+  transform: translateY(-48%);
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.donation-form {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="number"] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.thank-you {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #daffdb;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#message {
+  font-size: 20px;
+  color: #333;
+  font-family: Roboto;
+  background-color: #daffdb;
+}
