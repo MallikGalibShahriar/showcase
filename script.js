@@ -63,3 +63,13 @@ function generateProjectTiles() {
 }
 
 document.addEventListener("DOMContentLoaded", generateProjectTiles);
+function showThankYouMessage() {
+  const amountInput = document.getElementById("amount");
+  const donationAmount = parseFloat(amountInput.value);
+
+  if (!isNaN(donationAmount) && donationAmount > 0) {
+    document.querySelector(".donation-form").style.display = "none";
+    document.querySelector(".thank-you").style.display = "block";
+  }
+}
+document.getElementById("send-button").addEventListener("click", showThankYouMessage);
