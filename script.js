@@ -30,6 +30,12 @@ const projects = [
     description: `Introducing my cool CGPA Calculator project! 🎓🧮 Tired of scratching your head to figure out your CGPA? Say goodbye to manual calculations! With this nifty tool, you just punch in your subject name, credit hours, and grade points – and voila! 🚀📚 Watch as the magic happens, and your CGPA pops up on the screen. No more late-night grade crunching. Whether it's A's or B's, this calculator's got your back in decoding your academic journey! 🎉📊`,
     url: "https://mallikgalibshahriar.github.io/cgpa_calculator/",
   },
+  {
+    title: "Task Manager",
+    imageUrl: "https://assets.website-files.com/6143afec68f555387049efb3/63efa8163dcbda5d8500e565_taskmanager_11f49c4b3e79aa28268b2e70c21d5c0c_2000.jpeg",
+    description: `Manage your tasks effortlessly with my Task Manager project! 🚀 Keep track of task names, set deadlines with date and time, and monitor task statuses, whether they're "completed" or "in progress." 🕒 Organize your workflow by categorizing tasks with actions like "planning" or "working." 📝 And don't worry about clutter - easily delete tasks you no longer need. 🗑️ Stay organized and efficient with this intuitive task management system! ✅💼📆`,
+    url: "https://mallikgalibshahriar.github.io/task_manager/",
+  },
 ];
 
 function generateProjectTiles() {
